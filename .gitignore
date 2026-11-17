@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Local credentials
+groq_api_key.txt
+openrouter_api_key.txt
+
+# Generated datasets and model artifacts exceed GitHub's file limits.
+data/
+baseline_model/
+robust_model/
+*.safetensors
+*.pt
+*.pth
+
+# Local tooling
+.pytest_cache/
+.mypy_cache/
+.vscode/
